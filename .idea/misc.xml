@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.11890346451395896" />
+        <entry key="app/src/main/res/drawable-anydpi/create_to_do.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2155" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.2315" />
         <entry key="app/src/main/res/drawable/create_no_to_do.xml" value="0.299" />
         <entry key="app/src/main/res/drawable/cw_button_shadow.xml" value="0.2315" />

@@ -16,7 +16,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:layout_marginEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent"/>
     <androidx.appcompat.widget.Toolbar
-            android:layout_width="412dp"
+            android:layout_width="0dp"
             android:layout_height="78dp"
             android:background="#153462"
             android:theme="?attr/actionBarTheme"
@@ -25,7 +25,6 @@
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.0"/>
     <ImageView
-            android:src="@drawable/create_no_to_do"
             android:layout_width="121dp"
             android:layout_height="121dp" android:id="@+id/todoBackground" app:srcCompat="@drawable/circle"
             app:tint="@color/background"
@@ -38,6 +37,8 @@
             android:layout_height="113dp"
             android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/toolbar" android:layout_marginBottom="18dp"
-            app:srcCompat="@drawable/create_no_to_do" android:id="@+id/createTodoButton" app:tint="#4FA095"/>
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+            app:srcCompat="@drawable/create_no_to_do" android:id="@+id/createTodoButton"
+            app:tint="@color/createButtonColour"
+            android:layout_marginBottom="16dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
