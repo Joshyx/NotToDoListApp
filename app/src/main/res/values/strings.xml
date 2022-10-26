@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">NotToDoList</string>
+    <string name="mainPageHeading">Not-ToDos</string>
+</resources>
